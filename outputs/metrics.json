@@ -1,0 +1,139 @@
+{
+  "test_period": "2025-01-02 to 2026-10-15",
+  "test_inspections": 260483,
+  "found_rat_activity": 44273,
+  "base_rate": 0.16996502650844778,
+  "roc_auc": 0.7827783443817264,
+  "average_precision": 0.47440919162223927,
+  "log_loss": 0.3903655707836151,
+  "brier": 0.11983220279216766,
+  "top_10pct_hit_rate": 0.5533417789550462,
+  "top_10pct_lift": 3.255621408252147,
+  "top_20pct_share_of_finds": 0.5207462787703566,
+  "bottom_50pct_hit_rate": 0.05995039964373738,
+  "baselines_roc_auc": {
+    "Last year's rate in this hexagon": 0.6269290950588391,
+    "This lot's own track record": 0.7512760804865821
+  },
+  "by_borough": {
+    "Bronx": {
+      "inspections": 53269,
+      "actual": 0.18975389063057313,
+      "predicted": 0.2654971778392792,
+      "roc_auc": 0.8020769723271423
+    },
+    "Brooklyn": {
+      "inspections": 109674,
+      "actual": 0.16054853474843628,
+      "predicted": 0.23233653604984283,
+      "roc_auc": 0.7573262702577126
+    },
+    "Manhattan": {
+      "inspections": 82064,
+      "actual": 0.16109378046402809,
+      "predicted": 0.21673773229122162,
+      "roc_auc": 0.8033159964544365
+    },
+    "Queens": {
+      "inspections": 13543,
+      "actual": 0.237170493982131,
+      "predicted": 0.24314284324645996,
+      "roc_auc": 0.7609218612373765
+    },
+    "Staten Island": {
+      "inspections": 1933,
+      "actual": 0.06466632177961718,
+      "predicted": 0.08289483934640884,
+      "roc_auc": 0.7710929203539822
+    }
+  },
+  "mean_predicted": 0.23365645110607147,
+  "map": {
+    "hexagons": 464,
+    "model_r": 0.7857158526766482,
+    "last_years_map_r": 0.7278253944559747,
+    "split_half_r": 0.8310572441877837
+  },
+  "deciles": [
+    {
+      "bin": 0,
+      "inspections": 26049,
+      "found": 14414,
+      "hit_rate": 0.5533417789550462,
+      "predicted": 0.6425273418426514,
+      "share_of_all_finds": 0.32557088970704495
+    },
+    {
+      "bin": 1,
+      "inspections": 26048,
+      "found": 8641,
+      "hit_rate": 0.33173372235872234,
+      "predicted": 0.43082302808761597,
+      "share_of_all_finds": 0.19517538906331172
+    },
+    {
+      "bin": 2,
+      "inspections": 26048,
+      "found": 6000,
+      "hit_rate": 0.23034398034398035,
+      "predicted": 0.31975969672203064,
+      "share_of_all_finds": 0.13552277912045715
+    },
+    {
+      "bin": 3,
+      "inspections": 26049,
+      "found": 4216,
+      "hit_rate": 0.16184882337133863,
+      "predicted": 0.2436891347169876,
+      "share_of_all_finds": 0.09522733946197456
+    },
+    {
+      "bin": 4,
+      "inspections": 26048,
+      "found": 3194,
+      "hit_rate": 0.12261977886977887,
+      "predicted": 0.19088757038116455,
+      "share_of_all_finds": 0.07214329275179003
+    },
+    {
+      "bin": 5,
+      "inspections": 26048,
+      "found": 2396,
+      "hit_rate": 0.09198402948402948,
+      "predicted": 0.1504960060119629,
+      "share_of_all_finds": 0.054118763128769225
+    },
+    {
+      "bin": 6,
+      "inspections": 26049,
+      "found": 1895,
+      "hit_rate": 0.07274751429997313,
+      "predicted": 0.11951477825641632,
+      "share_of_all_finds": 0.042802611072211054
+    },
+    {
+      "bin": 7,
+      "inspections": 26048,
+      "found": 1423,
+      "hit_rate": 0.05462991400491401,
+      "predicted": 0.09616267681121826,
+      "share_of_all_finds": 0.03214148578140176
+    },
+    {
+      "bin": 8,
+      "inspections": 26048,
+      "found": 1215,
+      "hit_rate": 0.04664465601965602,
+      "predicted": 0.08215055614709854,
+      "share_of_all_finds": 0.027443362771892577
+    },
+    {
+      "bin": 9,
+      "inspections": 26048,
+      "found": 879,
+      "hit_rate": 0.03374539312039312,
+      "predicted": 0.06054207682609558,
+      "share_of_all_finds": 0.019854087141146975
+    }
+  ]
+}
